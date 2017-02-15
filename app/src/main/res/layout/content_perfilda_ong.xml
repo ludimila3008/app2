@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_perfilda_ong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.blogspot.httptecnomaniacosmaniacosporobotica.caodastro.perfilda_ong"
+    tools:showIn="@layout/activity_perfilda_ong">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        tools:text="91111-1111"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <TextView
+        tools:text="CEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView10"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        tools:text="11.111-111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:id="@+id/textView11"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        tools:text="Cadastre já seus cães disponíveis!"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:id="@+id/buttoncadastrocaes"
+        tools:style="@android:style/Widget.Button"
+        android:textSize="12sp"
+        tools:backgroundTint="@android:color/holo_purple"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="casual"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        tools:ignore="ContentDescription"
+        android:layout_height="50dp"
+        android:background="@drawable/caozinhoosso"
+        android:id="@+id/imageView5"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttoncadastrocaes"
+        android:layout_toStartOf="@+id/buttoncadastrocaes" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="58dp"
+        android:id="@+id/textView8"
+        tools:text="Telefone:"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:layout_below="@+id/toolbarperfilong"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarperfilong"
+        android:layout_width="400dp"
+        android:layout_height="288dp"
+        android:background="@drawable/patinhas"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        tools:ignore="ContentDescription"
+        android:layout_height="80dp"
+        android:background="@drawable/iconeusuarionovo"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:text="ONG ABPA"
+        android:textColor="@color/white"
+        android:id="@+id/textView7"
+        tools:fontFamily="sans-serif"
+        tools:textSize="20sp"
+        android:layout_alignBottom="@+id/toolbarperfilong"
+        android:layout_toLeftOf="@+id/textView11"
+        android:layout_toStartOf="@+id/textView11" />
+</RelativeLayout>

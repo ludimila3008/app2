@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_formulario_pais"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.blogspot.httptecnomaniacosmaniacosporobotica.caodastro.formularioPais"
+    android:background="@android:color/holo_blue_light" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="142dp"
+        android:id="@+id/nomedainstituição"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:text="Nome:"
+
+        />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/icone_formulario"
+        android:id="@+id/iconeFormulario"
+        android:contentDescription="@null"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        tools:text="Cadastro"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:textSize="42sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="53dp"
+        android:id="@+id/cadastro"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextnomedainstituição"
+        android:layout_marginTop="180dp"
+        tools:background="@android:drawable/editbox_background_normal" />
+
+    <TextView
+        tools:text="Telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefone"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editTexttelefone"
+        android:layout_marginTop="310dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <TextView
+        tools:text="CEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cep"
+        android:paddingTop="380dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editTextcep"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_marginTop="420dp" />
+
+    <Button
+        tools:text="Finalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonfinalizar"
+        android:layout_marginTop="510dp"
+        android:textColor="@color/white"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/colorPrimary"
+        android:textSize="18sp" />
+
+</RelativeLayout>

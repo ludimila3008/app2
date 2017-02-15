@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Caodastro</string>
+    <string name="title_activity_main1">MainActivity1</string>
+    <string name="title_activity_activityentrar">activityentrar</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_perfilda_ong">perfilda_ong</string>
+    <string name="title_activity_activity2">activity2</string>
+    <string name="title_activity_formulario_ong">formularioOng</string>
+    <string name="title_activity_formulario_pais">formularioPais</string>
+    <string name="title_activity_perfildos_pais">perfildosPais</string>
+</resources>

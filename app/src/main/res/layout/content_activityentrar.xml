@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_activityentrar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.blogspot.httptecnomaniacosmaniacosporobotica.caodastro.activityentrar"
+    tools:showIn="@layout/activity_activityentrar"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayout"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/senha"
+        android:layout_toRightOf="@+id/FloactingActionButton"
+        android:layout_toEndOf="@+id/FloactingActionButton"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/confirmar"
+        tools:text="Confirmar"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:style="@android:style/Widget.Button"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="?android:attr/buttonBarButtonStyle"
+
+        />
+
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/senha"
+        android:maxLines="1"
+        android:inputType="numberPassword"
+        android:hint="@string/Password"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:theme="@style/Base.V7.Widget.AppCompact.Button"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_marginBottom="124dp"
+        android:layout_above="@+id/confirmar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewsenha"
+        tools:text="Senha"
+        android:textSize="21sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:targetApi="ice_cream_sandwich"
+        tools:fontFamily="casual"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompact="?attr/actionModeCloseDrawable"
+        android:id="@+id/FloactingActionButton"
+        tools:fabSize="mini"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FloactingActionButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textViewemail"
+        android:fontFamily="casual"
+        android:textSize="21sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="1dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:hint="@string/Email"
+        android:fontFamily="sans-serif"
+        android:textSize="13sp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textViewemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_activity2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.blogspot.httptecnomaniacosmaniacosporobotica.caodastro.activity2"
+    tools:showIn="@layout/activity_activity2">
+    
+    
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttoncrianças"
+        tools:style="@android:style/Widget.Button"
+        tools:backgroundTint="@color/colorPrimary"
+        tools:text="Pai/responsável por uma criança autista"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="casual"/>
+        
+        
+        
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/buttoncaes"
+            tools:style="@android:style/Widget.Button"
+            tools:backgroundTint="@color/colorPrimaryDark"
+            tools:text="ONG's que barigam cães abandonados"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="204dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="31dp"
+            android:layout_marginEnd="31dp"
+            tools:fontFamily="casual"
+            />
+
+
+    <ImageView
+        android:background="@drawable/cao"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:contentDescription="@null"
+        android:id="@+id/cao"
+        android:layout_above="@+id/buttoncaes"
+        android:layout_alignLeft="@+id/buttoncaes"
+        android:layout_alignStart="@+id/buttoncaes"
+        android:layout_marginBottom="44dp"
+        android:layout_alignRight="@+id/buttoncaes"
+        android:layout_alignEnd="@+id/buttoncaes" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:background="@drawable/crianca"
+        android:layout_height="100dp"
+        android:contentDescription="@null"
+        android:id="@+id/crianca"
+        android:layout_alignTop="@+id/cao"
+        android:layout_alignRight="@+id/buttoncrianças"
+        android:layout_alignEnd="@+id/buttoncrianças" />
+
+</RelativeLayout>

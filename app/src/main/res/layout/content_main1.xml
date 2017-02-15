@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.blogspot.httptecnomaniacosmaniacosporobotica.caodastro.MainActivity1"
+    tools:showIn="@layout/activity_main1"
+    android:background="@color/colorAccent">
+
+
+    <Button
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:text="Cadastrar-se"
+        tools:style="@android:style/Widget.Button"
+        android:textSize="12sp"
+        tools:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_marginTop="59dp"
+        tools:fontFamily="casual"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="191dp"
+        android:background="@drawable/caodastro"
+        android:id="@+id/caodastroimageview"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription"/>
+
+
+    <Button
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:id="@+id/button1"
+        tools:text="Entrar"
+        android:layout_gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:style="@android:style/Widget.Button"
+        android:textSize="12sp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_marginTop="40dp"
+        tools:fontFamily="casual"
+        android:layout_below="@+id/caodastroimageview"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
