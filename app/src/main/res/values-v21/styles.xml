@@ -8,6 +8,10 @@
                 <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
                 <item name="android:colorAccent">@color/colorAccent</item>
                 <item name="android:editTextColor">@color/colorAccent</item>
+                <item name="blue" type="color">#f51e37</item>
+                <item name="orange" type="color"> #f9b12a</item>
+                <item name="white" type="color">#ffffff</item>
+                <item name="purple" type="color">#f6061a</item>
 
 
             </style>
